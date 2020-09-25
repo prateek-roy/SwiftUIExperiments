@@ -30,12 +30,6 @@ struct HomeView: View {
     }
 }
 
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
-
 struct LabelView: View {
     var body: some View {
         Text("Hello User")
@@ -43,5 +37,11 @@ struct LabelView: View {
             .font(.title)
             .foregroundColor(.white)
             .background(RoundedRectangle(cornerRadius: 12).fill(Color.green).shadow(color: .gray, radius: 5, y: 2))
+    }
+}
+
+struct HomeView_Previews: PreviewProvider {
+    static var previews: some View {
+        HomeView()
     }
 }
