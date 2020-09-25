@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EB8555BF251E02270076E2E8 /* SwiftUIExperimentsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8555BE251E02270076E2E8 /* SwiftUIExperimentsApp.swift */; };
-		EB8555C1251E02270076E2E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8555C0251E02270076E2E8 /* ContentView.swift */; };
+		EB8555C1251E02270076E2E8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB8555C0251E02270076E2E8 /* HomeView.swift */; };
 		EB8555C3251E02280076E2E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8555C2251E02280076E2E8 /* Assets.xcassets */; };
 		EB8555C6251E02280076E2E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB8555C5251E02280076E2E8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		EB8555BB251E02270076E2E8 /* SwiftUIExperiments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIExperiments.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB8555BE251E02270076E2E8 /* SwiftUIExperimentsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExperimentsApp.swift; sourceTree = "<group>"; };
-		EB8555C0251E02270076E2E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB8555C0251E02270076E2E8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		EB8555C2251E02280076E2E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB8555C5251E02280076E2E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB8555C7251E02280076E2E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,8 +52,8 @@
 		EB8555BD251E02270076E2E8 /* SwiftUIExperiments */ = {
 			isa = PBXGroup;
 			children = (
-				EB8555BE251E02270076E2E8 /* SwiftUIExperimentsApp.swift */,
-				EB8555C0251E02270076E2E8 /* ContentView.swift */,
+				EB8555CE251E03830076E2E8 /* AppController */,
+				EB8555CF251E03990076E2E8 /* HomeView */,
 				EB8555C2251E02280076E2E8 /* Assets.xcassets */,
 				EB8555C7251E02280076E2E8 /* Info.plist */,
 				EB8555C4251E02280076E2E8 /* Preview Content */,
@@ -67,6 +67,22 @@
 				EB8555C5251E02280076E2E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB8555CE251E03830076E2E8 /* AppController */ = {
+			isa = PBXGroup;
+			children = (
+				EB8555BE251E02270076E2E8 /* SwiftUIExperimentsApp.swift */,
+			);
+			path = AppController;
+			sourceTree = "<group>";
+		};
+		EB8555CF251E03990076E2E8 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				EB8555C0251E02270076E2E8 /* HomeView.swift */,
+			);
+			path = HomeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB8555C1251E02270076E2E8 /* ContentView.swift in Sources */,
+				EB8555C1251E02270076E2E8 /* HomeView.swift in Sources */,
 				EB8555BF251E02270076E2E8 /* SwiftUIExperimentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
